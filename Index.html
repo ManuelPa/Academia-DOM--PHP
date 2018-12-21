@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Academia Delox.</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/css.css" rel="stylesheet" type="text/css">
+        <link href="js/jquery-ui.css" rel="stylesheet" type="text/css">
+        <link href="js/jquery.timepicker.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="js/js.js"></script>
+        <script type="text/javascript" src="js/jspdf.js"></script>
+        <script type="text/javascript" src="js/jquery-2.1.3.js"></script>
+        <script type="text/javascript" src="js/pdfFromHTLM.js"></script>
+    </head>
+    <body onload="detectanav()">
+        <header>
+            <h1 id="tittle" >Delox´s Accademy.</h1>
+            <nav class="navegador">
+                <p id="inicio"><button class="botonesnav" onclick="inicio()">Inicio.</button></p>
+                <p class="botonesnav">|</p>
+                <p id="suscripciones"><button  class="botonesnav" onclick="suscripciones()">Suscripciones.</button></p> 
+                <p class="botonesnav">|</p>
+                <p id="miscursos"><button class="botonesnav" onclick="miscursos()">Mis cursos.</button></p>
+                <p class="botonesnav">|</p>
+                <p id="evaluacion"><button class="botonesnav" onclick="evaluacion()">Evaluación.</button></p>
+            </nav>
+        </header>
+        <section class="section" id="section">
+            
+        </section>
+        <footer id="footer">
+            
+            <button class="logou" onclick="delcookie()">Log out.</button>
+        </footer>
+    </body>
+</html>
